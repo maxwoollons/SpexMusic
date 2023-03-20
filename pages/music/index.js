@@ -24,7 +24,7 @@ const index = () => {
           <div className='select-none'>
 <h1 className="fontspex text-[81px]">Our Music</h1>
 <div className='bg-orange-600 p-3 m-3 rounded-full'>
-<i class="ri-soundcloud-fill p-3"></i>
+<i className="ri-soundcloud-fill p-3"></i>
 <span className='text-xl'>Sound Cloud</span>
 
 </div>
