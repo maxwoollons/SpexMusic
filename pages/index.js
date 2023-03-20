@@ -7,9 +7,9 @@ import 'remixicon/fonts/remixicon.css'
 import dynamic from "next/dynamic";
 const ReactPlayer = dynamic(() => import("react-player/lazy"), { ssr: false });
 import { useState } from 'react'
-import Navbar from '../components/Navbar.js'
+import Navbar from '../components/Navbar'
 import axios from 'axios'
-import supabase from '../components/Supabase.js'
+import supabase from '../components/Supabase'
 
 
 const inter = Inter({ subsets: ['latin'] })
